@@ -1,0 +1,21 @@
+body{background-image: url(ARMAGEDDON.png);}
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center; color: #c0babf;}
+hr{width: 95%; height: 5px; background-color: #d1b8cd;}
+#HomepageIntro{text-align: center;font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold; font-size: 20px; text-decoration: underline; margin-left: 100px; margin-right: 100px; margin-top: 0%; margin-bottom: 0%; color: #c0baba;}
+table{border: 3px ; border-style: solid; border-color: #1c3517; width: 60%; height: 150px; margin-left: auto;margin-right: auto; background-image:url(TableBG.png); background-size: 100%;}
+th{font-size: 30px; font-family: 'Courier New', Courier, monospace; background-color: #b6caa1;}
+#karina{background-color: #43627a;}
+#winter{background-color: #f1f1cb;}
+#giselle{background-color: #7e7878;}
+#ningning{background-color: #574274;}
+#FunFacts{background-color: #43627a; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 5;}
+#BrowOut{background-color: #f1f1cb;text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 5}
+#ActExp{background-color: #7e7878;text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 5;}
+#Reflect{background-color: #574274;text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 5;}
+img{height: 250px; width: 170px;margin: 5;}
+#ClickMe{width: 225px; height: 125px; margin-left: auto; margin-right: auto; display: block;}
+a:visited{color: #c3f3b9;}
+a:link{color: #bdbec2;}
+a:hover{color: #ecc1c1;}
+a:active{color: #d8b3f1;}
+a{text-align: center;}
