@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>BROWSER OUT3</title>
+        <style type="text/css">
+            .class{font-size:20px; text-align: center; color: chocolate;}
+            #id{font-size: 15px; text-align: right; color: blueviolet;}
+            *{font-size: 25px; text-align: justify; color:burlywood}
+            p[class]{background-color: aquamarine;}
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Selectors</h1>
+        <hr>
+        <p class="class"> This sentence is affected by the class selector</p>
+        <p class="class"> This sentence is also affected by the class selector</p>
+        <p id="id">However, an id selector was applied here</p>
+        <p>Sentence 4 has a syntax applied by the universal selector.</p>
+        <p class="class">sentences that have the class selector is affected by the attribute selector, like this one</p>
+        <p>Selectors can be used for applying a single CSS syntax to multiple specific elements without keeping the code too long so that those elements affected look identitcal to one another. The class selector is used for multiple elements while the id is a unique syntax given to only 1 element. The universal is used to apply a syntax to all elements in the webpage, and the attribute selector is for selecting elements with a specific attirbute value.</p>
+    </body>
+    </html>
