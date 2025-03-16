@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Real Test</title>
+    <style type="text/css">
+        *{text-align: center;}
+        hr{size: 3; background-color: #000000; height: 5px; border-color: #7cd480; width:95%}
+
+    </style>
+    <script type="text/javascript">
+        function check()
+        {
+            if (document.example.answer.value=="JANDI,TABLO,LIKHA,DONRAFAELIBARRA,SEEDTOSUCCESS")
+        {window.location.href="MESSAGE.html";}
+        else if(document.example.answer.value=="")
+        {document.write("Hmm... I see no answer (Refresh to try again)")}
+        else{document.write("Maybe you didn't see all of it yet... Here's a hint. 3-FunFacts and 2-ActandExp (Refresh to try again)")}
+        }
+    </script>
+    </head>
+    <body>
+        <h1>The Real Test</h1>
+        <br>
+        <hr>
+        <br>
+        <p>Answer all the questions to reach a SECRET part of the website!</p>
+        <br>
+        <p>Answer the questions in order of questions 1-5, all caps, seperate answers with comma, no spaces between words or commas<br>Question1: Who introduced me to K-POP?<br>Question2: What is my favorite restaurant?<br>Question3: In the street dance competition, I was in the group called ____.<br>Question4: Who did I cosplay and make a monologue about?<br>Question1: What is the name of the project between YES-O and APEC Schools?</p>
+        <form name="example">
+            <input type="text" name="answer" value="">
+            <input type="button" name="answerbutton" value="SUBMIT" onClick=check()>
+        </form>
+            <br>
+            <a href="PORTFOLIOQ4.html" target="_self"><p>Click to go back to Portfolio if you need to find the answers!</p></a>
+    </body>
+</html>
