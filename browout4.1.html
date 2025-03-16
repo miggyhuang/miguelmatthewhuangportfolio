@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Browser Output 1</title>
+    <style type="text/css">
+        *{text-align: center;}
+        hr{size: 3; background-color: #000000; height: 5px; border-color: #7cd480; width:95%}
+
+    </style>
+    <script type="text/javascript">
+        function show_alert1()
+        {alert("This is IVE!");}
+        function show_alert2()
+        {alert("Members: Yujin, Gaeul, Liz, Rei, Leeseo, Wonyoung");}
+        function show_prompt()
+        {var name=prompt("Please enter your name:");
+        if (name!=null && name!="")
+        {document.write("You inputed the name: " +name+ ". Hello there! (Refresh page to go back to output)")}}
+        function show_confirm()
+        {var name=prompt("Please enter your name:");
+        {var ans=confirm("Your name is " +name+ ". Am I correct?");
+        if (name!=null && name!="")
+        if (ans==true)
+        {document.write("Yipee! (Refresh page to go back to output)");}
+        else{document.write("Well then, type your name again. (Refresh page to go back to output)");}}}
+    </script>
+    </head>
+    <body>
+        <h1>Browser Output 1: Events and Popup Boxes</h1>
+        <br>
+        <hr>
+        <br>
+        <p> Events are things or actions that can be caused with or w/o a user's interferance. When it is triggered, it can cause a function to also be triggered. <br>This can be helpful in creating dynamic websites.</p>
+        <img src="testing.jpg" alt="test">
+        <br>
+        <input type="button" onClick="show_alert1()"
+        value="Once you click me, you trigger an event. This event for this case is onClick, when an object is click it triggers a function"> 
+        <br><br>
+        When you type in here and select some text, another alert button will appear:<input type="text" onselect="show_alert2()" value="">
+        <br>
+        As you can see we implemented the alert popup box. They give a warning or reminder to the user when an event is triggered.
+        <br><br>
+        Heres user input prompt box:
+        <input type="button" onClick="show_prompt()" value="Click me">
+        As you can see, it used the user's info and implemented it in the document.write generated.
+        <br><br>
+        Lastly is the confirm box, used to confirm something with the user such as allowing permissions, downloading something, etc. Here is an example WITH the prompt box
+        <input type="button" onclick="show_confirm()" value="To confirm your name, click here">\
+        <a href="BROWSEROUTPUTS4.html" target="_self"><p>Click to go back to check other browser outputs!</p></a>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html>
+<head><title>ICT E-Portfolio</title>
+<script type="text/javascript"> 
+function check()
+{ 
+if (document.example.answer.value=="HUANG") 
+{window.location.href="PORTFOLIOQ4.html";}
+else if (document.example.answer.value=="") 
+{alert("I see no answer... one more!");} 
+else {alert("I think that's the wrong student, hehe");}
+} 
+</script> </head> 
+<body style="font-family: Tahoma; text-align: center; background-color: rgb(233, 126, 185);"> 
+<h1 align="center"> STOP! <br> Lemme test you real quick! </h1>
+<h4 align="center"> If you want to see my portfolio, you better answer correctly! </h4>
+<p align="center"> Who made this portfolio? (last name,in all capital letters, press Submit button, not enter) </p> 
+<center> <form name="example"> <input type="text" name="answer" value=""> 
+<input type="button" name="answerbutton" value="SUBMIT" onClick=check()> 
+</form>
+<br><br>
+<img src="testing.jpg" alt="testing" width="500px" height="300px">
+</center>
+</body>
+</html>

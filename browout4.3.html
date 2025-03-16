@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Browser Output 1</title>
+    <style type="text/css">
+        *{text-align: center;}
+        hr{size: 3; background-color: #000000; height: 5px; border-color: #7cd480; width:95%}
+
+    </style>
+    <script type="text/javascript">
+        function bookcheck()
+{ var book=document.frmbook.cmbbook.value
+switch (book)
+{case "1": alert("Yujin")
+break
+case "2": alert("Gaeul")
+break
+case "3": alert("LIZ")
+break
+case "4": alert("REI")
+break
+case "5": alert("Wonyoung")
+break
+case "6": alert("Leeseo")
+break
+default: alert("undetermined")}}
+function show_alert1()
+{alert("This IS the function, triggered by an event");}
+function add() 
+    {    var A=Number(document.example.firstno.value);
+var B=Number(document.example.secondno.value);
+var C=Number(document.example.thirdno.value);
+var D=A+B+C;
+      document.example.sumno.value=D;
+    }
+function productdivide(x,y,z)
+{
+    return x*y/z
+}
+    </script>
+    </head>
+    <body>
+        <h1>Browser Output 3: Switch Conditions, Function and Return Statement</h1>
+        <br>
+        <hr>
+        <br><br>
+    <form name=frmbook>
+        <p>Select which IVE memeber is the:</p>
+        <select name=cmbbook>
+        <option value=1>Leader</option>
+        <option value=2>Oldest Member</option>
+        <option value=3>Main Vocalist</option>
+        <option value=4>Japanese</option>
+        <option value=5>Center and Visual</option>
+        <option value=6>Maknae</option>
+        </select>
+        <input type="button" name="combo"
+        value="SUBMIT" onClick=bookcheck()>
+        </form>
+        <br>
+        <p> Used for when a condition may have multiple results and a different set of operation depending on each result or input.<br><br><br>Functions are self-contained piece of code where when triggered does a "function" <br>and is used so that you do not need to retype your code. You just need to "call it" and it will be executed</p>
+        <input type="button" onClick="show_alert1()"
+        value="Click me to see how a function works!">
+        <p>Here is another type of function. The add function</p>
+        <form name="example">
+            <input type="type" name="firstno" value="">+
+            <input type="type" name="secondno" value="">+
+            <input type="type" name="thirdno" value="">=
+            <input type="type" name="sumno" value="">
+            <br>
+            <input type="button" name="addno" value="Click here to calculate" onClick="add()">
+            </form>  
+        <br>
+        <p>Last is the return statement which we use if we want to receive an output to be displayed on the browser.<br>Here we asked for it to multiple the first 2 digits then divide it by the third. We used x=5, y=10, and z=2 and it was able to return a result.</p>
+        <script type="text/javascript">
+            document.write("The answer to the product of x and y divided by z is ");
+            document.write(productdivide(5,10,2));
+        </script>
+
+        <a href="BROWSEROUTPUTS4.html" target="_self"><p>Click to go back to check other browser outputs!</p></a>
+    </body>
+    </html>

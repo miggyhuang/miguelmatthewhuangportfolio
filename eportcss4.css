@@ -1,0 +1,18 @@
+body{background-image: url(attitude.png);}
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #b83e3e;}
+h1,p{text-align: center;}
+#homepage{font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold; font-size: 20px; color: #470404; margin-left: 120px; margin-right: 120px;}
+hr{width: 95%; height: 5px; background-color: #b84d4d;}
+table{border: 4px ; border-style: solid; border-color: #720e0e; width: 75%; height: 150px; margin-left: auto;margin-right: auto; background-image:url(tablebg4.png); background-size: 100%;}
+th{font-size: 30px; font-family: 'Courier New', Courier, monospace; background-color: #d19090; text-decoration: underline;}
+#yujeul{background-color: #be79a2;}
+#jiwei{background-color: #96acda;}
+#wonyeeseo{background-color: #eb4c4c;}
+#empathy{background-color: #d23f6c;}
+#funfacts{background-color: #be79a2; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding: 30px;}
+#browout{background-color: #96acda;;text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding: 30px}
+#actexp{background-color: #eb4c4c;text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding: 30px;}
+#reflect{background-color: #d23f6c;text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; padding: 30px;}
+img{height: 300px; width: 220px;margin: 5; margin: 7px;}
+td{font-size: 19px; border-style: dashed;}
+.links{color: #24064b;}
