@@ -1,4 +1,4 @@
-body{background-image: url(attitude.png);}
+body{background-image: url(attitude.png); background-size: cover;}
 h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #b83e3e;}
 h1,p{text-align: center;}
 #homepage{font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold; font-size: 20px; color: #470404; margin-left: 120px; margin-right: 120px;}
